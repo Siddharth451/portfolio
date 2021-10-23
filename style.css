@@ -176,6 +176,15 @@ span.wave {
   }
 
   @media only screen and (max-width:470px){
+    .boy{
+      width:300px;
+      height: 300px;
+      animation: bounce 1.2s;
+      animation-direction: alternate;
+      animation-iteration-count: infinite;
+      border:1px  ;
+      
+    }
     .btn{
       width: 2.5rem;
       height: 2.5rem;
@@ -185,6 +194,7 @@ span.wave {
       line-height: 40px;
       font-size: 1em;
     }
+   
   }
 
  #Whatido{
